@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\pokertraining-ihm\src\qt\aboutpokertraining\AboutPokerTrainingImpl.h" />
+    <ClInclude Include="..\pokertraining-ihm\src\qt\changecompleteblindsdialog\changecompleteblindsdialogimpl.h" />
+    <ClInclude Include="..\pokertraining-ihm\src\qt\gametable\gametableimpl.h" />
+    <ClInclude Include="..\pokertraining-ihm\src\qt\gametable\log\guilog.h" />
+    <ClInclude Include="..\pokertraining-ihm\src\qt\gametable\myactionbutton.h" />
+    <ClInclude Include="..\pokertraining-ihm\src\qt\gametable\myavatarlabel.h" />
+    <ClInclude Include="..\pokertraining-ihm\src\qt\gametable\mycardspixmaplabel.h" />
+    <ClInclude Include="..\pokertraining-ihm\src\qt\gametable\mycashlabel.h" />
+    <ClInclude Include="..\pokertraining-ihm\src\qt\gametable\mychancelabel.h" />
+    <ClInclude Include="..\pokertraining-ihm\src\qt\gametable\mylefttabwidget.h" />
+    <ClInclude Include="..\pokertraining-ihm\src\qt\gametable\mymenubar.h" />
+    <ClInclude Include="..\pokertraining-ihm\src\qt\gametable\mynamelabel.h" />
+    <ClInclude Include="..\pokertraining-ihm\src\qt\gametable\myrighttabwidget.h" />
+    <ClInclude Include="..\pokertraining-ihm\src\qt\gametable\mysetlabel.h" />
+    <ClInclude Include="..\pokertraining-ihm\src\qt\gametable\myslider.h" />
+    <ClInclude Include="..\pokertraining-ihm\src\qt\gametable\mystatuslabel.h" />
+    <ClInclude Include="..\pokertraining-ihm\src\qt\gametable\startsplash\startsplash.h" />
+    <ClInclude Include="..\pokertraining-ihm\src\qt\guiinterface.h" />
+    <ClInclude Include="..\pokertraining-ihm\src\qt\guiwrapper.h" />
+    <ClInclude Include="..\pokertraining-ihm\src\qt\mymessagebox\mymessagebox.h" />
+    <ClInclude Include="..\pokertraining-ihm\src\qt\mymessagedialog\mymessagedialogimpl.h" />
+    <ClInclude Include="..\pokertraining-ihm\src\qt\newgamedialog\newgamedialogimpl.h" />
+    <ClInclude Include="..\pokertraining-ihm\src\qt\qttoolsinterface.h" />
+    <ClInclude Include="..\pokertraining-ihm\src\qt\qttools\qthelper\qthelper.h" />
+    <ClInclude Include="..\pokertraining-ihm\src\qt\qttools\qttoolswrapper.h" />
+    <ClInclude Include="..\pokertraining-ihm\src\qt\settingsdialog\manualblindsorderdialog\manualblindsorderdialogimpl.h" />
+    <ClInclude Include="..\pokertraining-ihm\src\qt\settingsdialog\myavatarbutton.h" />
+    <ClInclude Include="..\pokertraining-ihm\src\qt\settingsdialog\myhpavatarbutton.h" />
+    <ClInclude Include="..\pokertraining-ihm\src\qt\settingsdialog\mystylelistitem.h" />
+    <ClInclude Include="..\pokertraining-ihm\src\qt\settingsdialog\selectavatardialog\myavatarlistitem.h" />
+    <ClInclude Include="..\pokertraining-ihm\src\qt\settingsdialog\selectavatardialog\selectavatardialogimpl.h" />
+    <ClInclude Include="..\pokertraining-ihm\src\qt\settingsdialog\settingsdialogimpl.h" />
+    <ClInclude Include="..\pokertraining-ihm\src\qt\sound\sdlplayer.h" />
+    <ClInclude Include="..\pokertraining-ihm\src\qt\sound\soundevents.h" />
+    <ClInclude Include="..\pokertraining-ihm\src\qt\startwindow\startwindowimpl.h" />
+    <ClInclude Include="..\pokertraining-ihm\src\qt\styles\carddeckstylereader.h" />
+    <ClInclude Include="..\pokertraining-ihm\src\qt\styles\gametablestylereader.h" />
+    <ClInclude Include="..\pokertraining-ihm\ui_aboutpokertraining.h" />
+    <ClInclude Include="..\pokertraining-ihm\ui_changecompleteblindsdialog.h" />
+    <ClInclude Include="..\pokertraining-ihm\ui_gametable.h" />
+    <ClInclude Include="..\pokertraining-ihm\ui_manualblindsorderdialog.h" />
+    <ClInclude Include="..\pokertraining-ihm\ui_mymessagedialog.h" />
+    <ClInclude Include="..\pokertraining-ihm\ui_newgamedialog.h" />
+    <ClInclude Include="..\pokertraining-ihm\ui_selectavatardialog.h" />
+    <ClInclude Include="..\pokertraining-ihm\ui_settingsdialog.h" />
+    <ClInclude Include="..\pokertraining-ihm\ui_startwindow.h" />
+    <ClInclude Include="src\configfile.h" />
+    <ClInclude Include="src\convhelper.h" />
+    <ClInclude Include="src\engine\arraydata.h" />
+    <ClInclude Include="src\engine\BettingRound.h" />
+    <ClInclude Include="src\engine\BettingRoundFlop.h" />
+    <ClInclude Include="src\engine\BettingRoundInterface.h" />
+    <ClInclude Include="src\engine\BettingRoundPostRiver.h" />
+    <ClInclude Include="src\engine\BettingRoundPreflop.h" />
+    <ClInclude Include="src\engine\BettingRoundRiver.h" />
+    <ClInclude Include="src\engine\BettingRoundTurn.h" />
+    <ClInclude Include="src\engine\Board.h" />
+    <ClInclude Include="src\engine\boardinterface.h" />
+    <ClInclude Include="src\engine\cardsvalue.h" />
+    <ClInclude Include="src\engine\engine.h" />
+    <ClInclude Include="src\engine\EngineFactory.h" />
+    <ClInclude Include="src\engine\engine_msg.h" />
+    <ClInclude Include="src\engine\Exception.h" />
+    <ClInclude Include="src\engine\game.h" />
+    <ClInclude Include="src\engine\Hand.h" />
+    <ClInclude Include="src\engine\handinterface.h" />
+    <ClInclude Include="src\engine\HumanPlayer.h" />
+    <ClInclude Include="src\engine\LargeAgressivePlayer.h" />
+    <ClInclude Include="src\engine\log.h" />
+    <ClInclude Include="src\engine\ManiacPlayer.h" />
+    <ClInclude Include="src\engine\Player.h" />
+    <ClInclude Include="src\engine\PlayerStatistics.h" />
+    <ClInclude Include="src\engine\psim\psim.hpp" />
+    <ClInclude Include="src\engine\psim\simDefs.hpp" />
+    <ClInclude Include="src\engine\psim\simulate.hpp" />
+    <ClInclude Include="src\engine\ranges.h" />
+    <ClInclude Include="src\engine\replay.h" />
+    <ClInclude Include="src\engine\TightAgressivePlayer.h" />
+    <ClInclude Include="src\engine\tools.h" />
+    <ClInclude Include="src\gamedata.h" />
+    <ClInclude Include="src\game_defs.h" />
+    <ClInclude Include="src\loghelper.h" />
+    <ClInclude Include="src\pch_game.h" />
+    <ClInclude Include="src\pch_lib.h" />
+    <ClInclude Include="src\session.h" />
+    <ClInclude Include="src\third_party\boost\timers.hpp" />
+    <ClInclude Include="src\third_party\boost\timers\portable.hpp" />
+    <ClInclude Include="src\third_party\boost\timers\portable\clock_device.hpp" />
+    <ClInclude Include="src\third_party\boost\timers\portable\date_time_devices.hpp" />
+    <ClInclude Include="src\third_party\boost\timers\portable\time_device.hpp" />
+    <ClInclude Include="src\third_party\boost\timers\timer.hpp" />
+    <ClInclude Include="src\third_party\sqlite3\sqlite3.h" />
+    <ClInclude Include="src\third_party\sqlite3\sqlite3ext.h" />
+    <ClInclude Include="src\third_party\tinystr.h" />
+    <ClInclude Include="src\third_party\tinyxml.h" />
+    <ClInclude Include="src\thread.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\pokertraining-ihm\moc_AboutPokerTrainingImpl.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\moc_carddeckstylereader.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\moc_changecompleteblindsdialogimpl.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\moc_gametableimpl.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\moc_gametablestylereader.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\moc_guilog.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\moc_manualblindsorderdialogimpl.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\moc_myavatarlabel.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\moc_mycardspixmaplabel.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\moc_mycashlabel.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\moc_mychancelabel.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\moc_mylefttabwidget.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\moc_mymenubar.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\moc_mymessagebox.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\moc_mymessagedialogimpl.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\moc_mynamelabel.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\moc_myrighttabwidget.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\moc_mysetlabel.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\moc_myslider.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\moc_mystatuslabel.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\moc_newgamedialogimpl.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\moc_sdlplayer.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\moc_selectavatardialogimpl.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\moc_settingsdialogimpl.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\moc_startsplash.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\moc_startwindowimpl.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\src\qt\aboutpokertraining\AboutPokerTrainingImpl.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\src\qt\changecompleteblindsdialog\changecompleteblindsdialogimpl.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\src\qt\gametable\gametableimpl.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\src\qt\gametable\log\guilog.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\src\qt\gametable\myactionbutton.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\src\qt\gametable\myavatarlabel.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\src\qt\gametable\mycardspixmaplabel.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\src\qt\gametable\mycashlabel.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\src\qt\gametable\mychancelabel.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\src\qt\gametable\mylefttabwidget.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\src\qt\gametable\mymenubar.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\src\qt\gametable\mynamelabel.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\src\qt\gametable\myrighttabwidget.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\src\qt\gametable\mysetlabel.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\src\qt\gametable\mystatuslabel.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\src\qt\gametable\startsplash\startsplash.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\src\qt\guiinterface.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\src\qt\guiwrapper.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\src\qt\mymessagebox\mymessagebox.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\src\qt\mymessagedialog\mymessagedialogimpl.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\src\qt\newgamedialog\newgamedialogimpl.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\src\qt\qttoolsinterface.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\src\qt\qttools\qthelper\qthelper.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\src\qt\qttools\qttoolswrapper.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\src\qt\settingsdialog\manualblindsorderdialog\manualblindsorderdialogimpl.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\src\qt\settingsdialog\myavatarbutton.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\src\qt\settingsdialog\myhpavatarbutton.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\src\qt\settingsdialog\mystylelistitem.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\src\qt\settingsdialog\selectavatardialog\myavatarlistitem.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\src\qt\settingsdialog\selectavatardialog\selectavatardialogimpl.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\src\qt\settingsdialog\settingsdialogimpl.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\src\qt\sound\sdlplayer.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\src\qt\sound\soundevents.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\src\qt\startwindow\startwindowimpl.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\src\qt\styles\carddeckstylereader.cpp" />
+    <ClCompile Include="..\pokertraining-ihm\src\qt\styles\gametablestylereader.cpp" />
+    <ClCompile Include="src\configfile.cpp" />
+    <ClCompile Include="src\convhelper.cpp" />
+    <ClCompile Include="src\engine\arraydata.cpp" />
+    <ClCompile Include="src\engine\BettingRound.cpp" />
+    <ClCompile Include="src\engine\BettingRoundFlop.cpp" />
+    <ClCompile Include="src\engine\BettingRoundInterface.cpp" />
+    <ClCompile Include="src\engine\BettingRoundPostRiver.cpp" />
+    <ClCompile Include="src\engine\BettingRoundPreflop.cpp" />
+    <ClCompile Include="src\engine\BettingRoundRiver.cpp" />
+    <ClCompile Include="src\engine\BettingRoundTurn.cpp" />
+    <ClCompile Include="src\engine\Board.cpp" />
+    <ClCompile Include="src\engine\BoardInterface.cpp" />
+    <ClCompile Include="src\engine\cardsvalue.cpp" />
+    <ClCompile Include="src\engine\EngineFactory.cpp" />
+    <ClCompile Include="src\engine\Exception.cpp" />
+    <ClCompile Include="src\engine\game.cpp" />
+    <ClCompile Include="src\engine\Hand.cpp" />
+    <ClCompile Include="src\engine\handinterface.cpp" />
+    <ClCompile Include="src\engine\HumanPlayer.cpp" />
+    <ClCompile Include="src\engine\LargeAgressivePlayer.cpp" />
+    <ClCompile Include="src\engine\log.cpp" />
+    <ClCompile Include="src\engine\ManiacPlayer.cpp" />
+    <ClCompile Include="src\engine\player.cpp" />
+    <ClCompile Include="src\engine\PlayerStatistics.cpp" />
+    <ClCompile Include="src\engine\psim\psim.cpp" />
+    <ClCompile Include="src\engine\psim\simulate.cpp" />
+    <ClCompile Include="src\engine\psim\t_nbitsandstr.c" />
+    <ClCompile Include="src\engine\TightAgressivePlayer.cpp" />
+    <ClCompile Include="src\engine\tools.cpp" />
+    <ClCompile Include="src\loghelper_client.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\session.cpp" />
+    <ClCompile Include="src\third_party\sqlite3\sqlite3.c" />
+    <ClCompile Include="src\third_party\tinystr.cpp" />
+    <ClCompile Include="src\third_party\tinyxml.cpp" />
+    <ClCompile Include="src\third_party\tinyxmlerror.cpp" />
+    <ClCompile Include="src\third_party\tinyxmlparser.cpp" />
+    <ClCompile Include="src\thread.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{388BB6C1-C993-4150-B9DE-9CF420EEFC2C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>PokerTraining</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;LOG_POKER_EXEC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Qt\4.8.2\include;D:\Qt\4.8.2\include\QtCore;D:\Qt\4.8.2\include\QtGui;D:\Qt\4.8.2\include\QtSql;D:\Qt\4.8.2\include\ActiveQt;D:\Qt\4.8.2\mkspecs\win32-msvc2010;d:\pokertraining\pokertraining\src\;d:\pokertraining\pokertraining-ihm;d:\pokertraining\pokertraining-ihm\src;D:\PokerTraining\pokertraining-ihm\src\qt;D:\lib\SDL\include;D:\sqllite3;D:\tinyxml;D:\boost\boost_1_50_0;D:\poker\poker-eval\include;$(IncludePath)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>D:\boost\boost_1_50_0\stage\lib;D:\lib\SDL\lib;d:\Qt\4.8.2\lib\;D:\poker\poker-eval\Debug\</AdditionalLibraryDirectories>
+      <AdditionalDependencies>qtmaind.lib;QtGuid4.lib;QtCored4.lib;SDL.lib;SDL_mixer.lib;poker-eval.lib;libboost_thread-vc100-mt-gd-1_50.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;LOG_POKER_EXEC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Qt\4.8.2\include;D:\Qt\4.8.2\include\QtCore;D:\Qt\4.8.2\include\QtGui;D:\Qt\4.8.2\include\QtSql;D:\Qt\4.8.2\include\ActiveQt;D:\Qt\4.8.2\mkspecs\win32-msvc2010;d:\pokertraining\pokertraining\src\;d:\pokertraining\pokertraining-ihm;d:\pokertraining\pokertraining-ihm\src;D:\PokerTraining\pokertraining-ihm\src\qt;D:\lib\SDL\include;D:\sqllite3;D:\tinyxml;D:\boost\boost_1_50_0;D:\poker\poker-eval\include;$(IncludePath)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>qtmain.lib;QtGui4.lib;QtCore4.lib;SDL.lib;SDL_mixer.lib;poker-eval.lib;libboost_thread-vc100-mt-1_50.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <DelayLoadDLLs>
+      </DelayLoadDLLs>
+      <AdditionalLibraryDirectories>D:\boost\boost_1_50_0\stage\lib;D:\lib\SDL\lib;d:\Qt\4.8.2\lib\;D:\poker\poker-eval\Release\</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

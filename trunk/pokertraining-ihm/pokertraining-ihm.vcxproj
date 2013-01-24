@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B1517AB8-D17D-46B7-BAF9-EB5603AF246A}</ProjectGuid>
+    <Keyword>MakeFileProj</Keyword>
+    <ProjectName>pokertraining-qt</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <OutDir>$(SolutionDir)</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <NMakeBuildCommandLine>nmake mocables &amp; xcopy /Y Debug\moc_*.*  .</NMakeBuildCommandLine>
+    <NMakeOutput>
+    </NMakeOutput>
+    <NMakeReBuildCommandLine>qmake -project &amp; qmake &amp; nmake mocables &amp; xcopy /Y Debug\moc_*.*  .</NMakeReBuildCommandLine>
+    <NMakePreprocessorDefinitions>WIN32;_DEBUG;_WIN32_WINNT=0x0501;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <ExecutablePath>$(QTDIR)\bin;$(ExecutablePath)</ExecutablePath>
+    <IncludePath>D:\pokertraining\pokertraining-ihm\;D:\PokerTraining\pokertraining-ihm\src;D:\pokertraining\pokertraining-ihm\src\qt;D:\pokertraining\pokertraining-ihm\\third_party;D:\pokertraining\pokertraining\src;D:\lib\SDL\include;D:\sqllite3;D:\tinyxml;D:\boost\boost_1_50_0;$(QTDIR)\include\QtSql;D:\poker\poker-eval\include;$(QTDIR)\include;$(IncludePath)</IncludePath>
+    <LibraryPath>
+    </LibraryPath>
+    <NMakeIncludeSearchPath>
+    </NMakeIncludeSearchPath>
+    <SourcePath>
+    </SourcePath>
+    <NMakeCleanCommandLine>nmake mocclean</NMakeCleanCommandLine>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <NMakeBuildCommandLine>nmake mocables &amp; xcopy /Y Release\moc_*.*  .</NMakeBuildCommandLine>
+    <NMakeOutput>
+    </NMakeOutput>
+    <NMakeReBuildCommandLine>qmake -project &amp; qmake &amp; nmake mocables &amp; xcopy /Y Release\moc_*.*  .</NMakeReBuildCommandLine>
+    <NMakePreprocessorDefinitions>WIN32;NDEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <IncludePath>D:\pokertraining\pokertraining-ihm\src;D:\pokertraining\pokertraining-ihm\\src\qt;D:\pokertraining\pokertraining\src;D:\PokerTraining\PokerTraining\src\third_party;D:\PokerTraining\PokerTraining\src\third_party\boost;D:\PokerTraining\PokerTraining\src\third_party\sqlite3;D:\lib\SDL\include;D:\tinyxml;D:\boost\boost_1_50_0;$(QTDIR)\include\QtSql;D:\poker\poker-eval\include;$(QTDIR)\include;$(IncludePath);$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include</IncludePath>
+    <LibraryPath>
+    </LibraryPath>
+    <NMakeCleanCommandLine>nmake mocclean</NMakeCleanCommandLine>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

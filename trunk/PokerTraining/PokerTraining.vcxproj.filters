@@ -1,0 +1,612 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ui">
+      <UniqueIdentifier>{edafbf73-fa39-44aa-bdc8-9de6741ed3f3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\configfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\convhelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gamedata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\loghelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pch_game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pch_lib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\session.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\thread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\tools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\arraydata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\BettingRound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\BettingRoundFlop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\BettingRoundInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\BettingRoundPostRiver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\BettingRoundPreflop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\BettingRoundRiver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\BettingRoundTurn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Board.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\boardinterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\cardsvalue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\engine_msg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\EngineFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Exception.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Hand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\handinterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\HumanPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\LargeAgressivePlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\ManiacPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\PlayerStatistics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\ranges.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\replay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\TightAgressivePlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\psim\psim.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\psim\simDefs.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\psim\simulate.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\third_party\tinystr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\third_party\tinyxml.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\third_party\sqlite3\sqlite3ext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\third_party\sqlite3\sqlite3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\third_party\boost\timers.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\third_party\boost\timers\timer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\third_party\boost\timers\portable.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\third_party\boost\timers\portable\date_time_devices.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\third_party\boost\timers\portable\time_device.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\third_party\boost\timers\portable\clock_device.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pokertraining-ihm\ui_startwindow.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pokertraining-ihm\ui_aboutpokertraining.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pokertraining-ihm\ui_changecompleteblindsdialog.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pokertraining-ihm\ui_gametable.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pokertraining-ihm\ui_manualblindsorderdialog.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pokertraining-ihm\ui_mymessagedialog.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pokertraining-ihm\ui_newgamedialog.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pokertraining-ihm\ui_selectavatardialog.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pokertraining-ihm\ui_settingsdialog.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pokertraining-ihm\src\qt\gametable\startsplash\startsplash.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pokertraining-ihm\src\qt\aboutpokertraining\AboutPokerTrainingImpl.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pokertraining-ihm\src\qt\changecompleteblindsdialog\changecompleteblindsdialogimpl.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pokertraining-ihm\src\qt\gametable\log\guilog.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pokertraining-ihm\src\qt\gametable\myactionbutton.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pokertraining-ihm\src\qt\gametable\myavatarlabel.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pokertraining-ihm\src\qt\gametable\mycardspixmaplabel.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pokertraining-ihm\src\qt\gametable\mycashlabel.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pokertraining-ihm\src\qt\gametable\mychancelabel.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pokertraining-ihm\src\qt\gametable\mylefttabwidget.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pokertraining-ihm\src\qt\gametable\mymenubar.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pokertraining-ihm\src\qt\mymessagebox\mymessagebox.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pokertraining-ihm\src\qt\gametable\mynamelabel.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pokertraining-ihm\src\qt\gametable\myrighttabwidget.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pokertraining-ihm\src\qt\gametable\mysetlabel.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pokertraining-ihm\src\qt\gametable\myslider.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pokertraining-ihm\src\qt\gametable\mystatuslabel.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pokertraining-ihm\src\qt\mymessagedialog\mymessagedialogimpl.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pokertraining-ihm\src\qt\newgamedialog\newgamedialogimpl.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pokertraining-ihm\src\qt\qttools\qttoolswrapper.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pokertraining-ihm\src\qt\qttools\qthelper\qthelper.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pokertraining-ihm\src\qt\settingsdialog\settingsdialogimpl.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pokertraining-ihm\src\qt\settingsdialog\myavatarbutton.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pokertraining-ihm\src\qt\settingsdialog\myhpavatarbutton.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pokertraining-ihm\src\qt\settingsdialog\mystylelistitem.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pokertraining-ihm\src\qt\settingsdialog\manualblindsorderdialog\manualblindsorderdialogimpl.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pokertraining-ihm\src\qt\settingsdialog\selectavatardialog\selectavatardialogimpl.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pokertraining-ihm\src\qt\settingsdialog\selectavatardialog\myavatarlistitem.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pokertraining-ihm\src\qt\sound\soundevents.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pokertraining-ihm\src\qt\sound\sdlplayer.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pokertraining-ihm\src\qt\startwindow\startwindowimpl.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pokertraining-ihm\src\qt\styles\gametablestylereader.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pokertraining-ihm\src\qt\styles\carddeckstylereader.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pokertraining-ihm\src\qt\qttoolsinterface.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pokertraining-ihm\src\qt\guiinterface.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pokertraining-ihm\src\qt\guiwrapper.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pokertraining-ihm\src\qt\gametable\gametableimpl.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\configfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\convhelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\loghelper_client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\session.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\thread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\arraydata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\BettingRound.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\BettingRoundFlop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\BettingRoundInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\BettingRoundPostRiver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\BettingRoundPreflop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\BettingRoundRiver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\BettingRoundTurn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Board.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\BoardInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\cardsvalue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\EngineFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Exception.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Hand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\handinterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\HumanPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\LargeAgressivePlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\log.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\ManiacPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\PlayerStatistics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\TightAgressivePlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\tools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\psim\psim.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\psim\simulate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\psim\t_nbitsandstr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\third_party\tinyxmlparser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\third_party\tinystr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\third_party\tinyxml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\third_party\tinyxmlerror.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\third_party\sqlite3\sqlite3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\src\qt\aboutpokertraining\AboutPokerTrainingImpl.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\src\qt\changecompleteblindsdialog\changecompleteblindsdialogimpl.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\src\qt\gametable\log\guilog.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\src\qt\gametable\myactionbutton.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\src\qt\gametable\myavatarlabel.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\src\qt\gametable\mycardspixmaplabel.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\src\qt\gametable\mycashlabel.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\src\qt\gametable\mychancelabel.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\src\qt\gametable\mylefttabwidget.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\src\qt\gametable\mymenubar.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\src\qt\mymessagebox\mymessagebox.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\src\qt\gametable\mynamelabel.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\src\qt\gametable\myrighttabwidget.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\src\qt\gametable\mysetlabel.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\src\qt\gametable\mystatuslabel.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\src\qt\gametable\startsplash\startsplash.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\src\qt\mymessagedialog\mymessagedialogimpl.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\src\qt\newgamedialog\newgamedialogimpl.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\src\qt\qttools\qttoolswrapper.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\src\qt\qttools\qthelper\qthelper.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\src\qt\settingsdialog\myavatarbutton.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\src\qt\settingsdialog\myhpavatarbutton.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\src\qt\settingsdialog\mystylelistitem.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\src\qt\settingsdialog\settingsdialogimpl.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\src\qt\settingsdialog\manualblindsorderdialog\manualblindsorderdialogimpl.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\src\qt\settingsdialog\selectavatardialog\myavatarlistitem.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\src\qt\settingsdialog\selectavatardialog\selectavatardialogimpl.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\src\qt\sound\sdlplayer.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\src\qt\sound\soundevents.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\src\qt\startwindow\startwindowimpl.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\src\qt\styles\carddeckstylereader.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\src\qt\styles\gametablestylereader.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\src\qt\guiinterface.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\src\qt\guiwrapper.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\src\qt\qttoolsinterface.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\moc_startwindowimpl.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\moc_AboutPokerTrainingImpl.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\moc_carddeckstylereader.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\moc_changecompleteblindsdialogimpl.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\moc_gametableimpl.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\moc_gametablestylereader.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\moc_guilog.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\moc_manualblindsorderdialogimpl.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\moc_myavatarlabel.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\moc_mycardspixmaplabel.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\moc_mycashlabel.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\moc_mychancelabel.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\moc_mylefttabwidget.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\moc_mymenubar.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\moc_mymessagebox.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\moc_mymessagedialogimpl.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\moc_mynamelabel.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\moc_myrighttabwidget.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\moc_mysetlabel.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\moc_myslider.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\moc_mystatuslabel.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\moc_newgamedialogimpl.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\moc_sdlplayer.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\moc_selectavatardialogimpl.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\moc_settingsdialogimpl.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\moc_startsplash.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pokertraining-ihm\src\qt\gametable\gametableimpl.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

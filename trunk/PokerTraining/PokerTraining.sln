@@ -1,0 +1,28 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PokerTraining", "PokerTraining.vcxproj", "{388BB6C1-C993-4150-B9DE-9CF420EEFC2C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B1517AB8-D17D-46B7-BAF9-EB5603AF246A} = {B1517AB8-D17D-46B7-BAF9-EB5603AF246A}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pokertraining-qt", "..\pokertraining-ihm\pokertraining-ihm.vcxproj", "{B1517AB8-D17D-46B7-BAF9-EB5603AF246A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{388BB6C1-C993-4150-B9DE-9CF420EEFC2C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{388BB6C1-C993-4150-B9DE-9CF420EEFC2C}.Debug|Win32.Build.0 = Debug|Win32
+		{388BB6C1-C993-4150-B9DE-9CF420EEFC2C}.Release|Win32.ActiveCfg = Release|Win32
+		{388BB6C1-C993-4150-B9DE-9CF420EEFC2C}.Release|Win32.Build.0 = Release|Win32
+		{B1517AB8-D17D-46B7-BAF9-EB5603AF246A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B1517AB8-D17D-46B7-BAF9-EB5603AF246A}.Debug|Win32.Build.0 = Debug|Win32
+		{B1517AB8-D17D-46B7-BAF9-EB5603AF246A}.Release|Win32.ActiveCfg = Release|Win32
+		{B1517AB8-D17D-46B7-BAF9-EB5603AF246A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,25 @@
+﻿La génération a démarré 09/12/2012 14:36:34.
+Projet "D:\PokerTraining\pokertraining-ihm\pokertraining.vcxproj" sur le nœud 2 (build cible(s)).
+Build:
+  nmake
+  
+  Microsoft (R) Program Maintenance Utility Version 10.00.30319.01
+  Copyright (C) Microsoft Corporation. Tous droits rÚservÚs.
+  
+  
+  Microsoft (R) Program Maintenance Utility Version 10.00.30319.01
+  Copyright (C) Microsoft Corporation. Tous droits rÚservÚs.
+  
+  	"D:\Microsoft Visual Studio 10.0\VC\bin\nmake.exe" -f Makefile.Debug
+  	link /LIBPATH:"d:\Qt\4.8.2\lib" /NOLOGO /DYNAMICBASE /NXCOMPAT /DEBUG /MANIFEST /MANIFESTFILE:"debug\pokertraining-ihm.intermediate.manifest" /SUBSYSTEM:WINDOWS "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" /OUT:debug\pokertraining-ihm.exe @C:\DOCUME~1\nous\LOCALS~1\Temp\nm83.tmp 
+LINK : fatal error LNK1104: impossible d'ouvrir le fichier 'libboost_date_time-vc100-mt-gd-1_50.lib'
+NMAKE : fatal error U1077: '"D:\Microsoft Visual Studio 10.0\VC\bin\link.EXE"'á: code retour '0x450'
+  Stop.
+NMAKE : fatal error U1077: '"D:\Microsoft Visual Studio 10.0\VC\bin\nmake.exe"'á: code retour '0x2'
+  Stop.
+C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.MakeFile.Targets(38,5): error MSB3073: La commande "nmake" s'est arrêtée avec le code 2.
+Génération du projet "D:\PokerTraining\pokertraining-ihm\pokertraining.vcxproj" terminée (build cible(s)) -- ÉCHEC.
+
+ÉCHEC de la build.
+
+Temps écoulé 00:00:02.71

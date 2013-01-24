@@ -1,0 +1,27 @@
+﻿La génération a démarré 01/01/2013 23:26:07.
+Projet "D:\PokerTraining\pokertraining-ihm\pokertraining-ihm.vcxproj" sur le nœud 2 (clean cible(s)).
+CoreClean:
+  nmake mocclean
+  
+  Microsoft (R) Program Maintenance Utility Version 10.00.30319.01
+  Copyright (C) Microsoft Corporation. Tous droits rÚservÚs.
+  
+  
+  Microsoft (R) Program Maintenance Utility Version 10.00.30319.01
+  Copyright (C) Microsoft Corporation. Tous droits rÚservÚs.
+  
+  Impossible de trouver D:\PokerTraining\pokertraining-ihm\debug\moc_AboutPokerTrainingImpl.cpp
+  
+  Microsoft (R) Program Maintenance Utility Version 10.00.30319.01
+  Copyright (C) Microsoft Corporation. Tous droits rÚservÚs.
+  
+  Impossible de trouver D:\PokerTraining\pokertraining-ihm\release\moc_AboutPokerTrainingImpl.cpp
+  	"D:\Microsoft Visual Studio 10.0\VC\bin\nmake.exe" -f Makefile.Debug mocclean
+  	del debug\moc_AboutPokerTrainingImpl.cpp debug\moc_changecompleteblindsdialogimpl.cpp debug\moc_gametableimpl.cpp debug\moc_myavatarlabel.cpp debug\moc_mycardspixmaplabel.cpp debug\moc_mycashlabel.cpp debug\moc_mychancelabel.cpp debug\moc_mylefttabwidget.cpp debug\moc_mymenubar.cpp debug\moc_mynamelabel.cpp debug\moc_myrighttabwidget.cpp debug\moc_mysetlabel.cpp debug\moc_myslider.cpp debug\moc_mystatuslabel.cpp debug\moc_mymessagebox.cpp debug\moc_mymessagedialogimpl.cpp debug\moc_newgamedialogimpl.cpp debug\moc_settingsdialogimpl.cpp debug\moc_sdlplayer.cpp debug\moc_startwindowimpl.cpp debug\moc_carddeckstylereader.cpp debug\moc_gametablestylereader.cpp debug\moc_guilog.cpp debug\moc_startsplash.cpp debug\moc_manualblindsorderdialogimpl.cpp debug\moc_selectavatardialogimpl.cpp
+  	"D:\Microsoft Visual Studio 10.0\VC\bin\nmake.exe" -f Makefile.Release mocclean
+  	del release\moc_AboutPokerTrainingImpl.cpp release\moc_changecompleteblindsdialogimpl.cpp release\moc_gametableimpl.cpp release\moc_myavatarlabel.cpp release\moc_mycardspixmaplabel.cpp release\moc_mycashlabel.cpp release\moc_mychancelabel.cpp release\moc_mylefttabwidget.cpp release\moc_mymenubar.cpp release\moc_mynamelabel.cpp release\moc_myrighttabwidget.cpp release\moc_mysetlabel.cpp release\moc_myslider.cpp release\moc_mystatuslabel.cpp release\moc_mymessagebox.cpp release\moc_mymessagedialogimpl.cpp release\moc_newgamedialogimpl.cpp release\moc_settingsdialogimpl.cpp release\moc_sdlplayer.cpp release\moc_startwindowimpl.cpp release\moc_carddeckstylereader.cpp release\moc_gametablestylereader.cpp release\moc_guilog.cpp release\moc_startsplash.cpp release\moc_manualblindsorderdialogimpl.cpp release\moc_selectavatardialogimpl.cpp
+Génération du projet "D:\PokerTraining\pokertraining-ihm\pokertraining-ihm.vcxproj" terminée (clean cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:01.10
